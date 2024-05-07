@@ -6,14 +6,14 @@
     "build" : {
         "path"      : "src",
         "compilers" : ["g++"],
-        "cpuflags"  : ["POPCNT"],
+        "cpuflags"  : [],
         "systems"   : ["Windows", "Linux"]
     },
 
     "test_presets" : {
 
         "default" : {
-            "base_branch"     : "base",
+            "base_branch"     : "base2",
             "book_name"       : "Pohl.epd",
             "test_bounds"     : "[0.00, 5.00]",
             "test_confidence" : "[0.05, 0.05]",
